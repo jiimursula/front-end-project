@@ -75,7 +75,7 @@
   }
 
   &-lion {
-    background: $primary-color;
+    background: lighten($primary-color, 10);
     transform: translate3d(-300%, 0, 0);
     @include easeOut;
 

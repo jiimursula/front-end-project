@@ -50,7 +50,7 @@
     .menu-nav.show {
       transform: translate3d(200%, 0, 0); }
   .menu-lion {
-    background: #151ce1;
+    background: #3c42ed;
     transform: translate3d(-300%, 0, 0);
     transition: all 0.5s ease-out; }
     .menu-lion.show {
@@ -147,6 +147,9 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#parrot {
+    padding: 0;
+    height: 0; }
 
 .dolphins {
   display: grid;
@@ -163,6 +166,56 @@ main {
         opacity: 0.9;
         border-color: #00ff19;
         transition: all 0.5s ease-out; }
+
+.parrot1,
+.parrot2,
+.parrot3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.parrot1 {
+  background-image: url("../img/parrot1.jpg");
+  min-height: 100%; }
+
+.parrot2 {
+  background-image: url("../img/parrot2.jpg");
+  min-height: 400px; }
+
+.parrot3 {
+  background-image: url("../img/parrot3.jpg");
+  min-height: 400px; }
+
+.section {
+  text-align: center;
+  padding: 50px 80px; }
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666; }
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd; }
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase; }
+  .ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px; }
+    .ptext .border.trans {
+      background-color: transparent; }
 
 #main-footer {
   text-align: center;
@@ -222,4 +275,8 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .parrot1,
+  .parrot2,
+  .parrot3 {
+    background-attachment: scroll; } }
