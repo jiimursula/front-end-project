@@ -150,6 +150,9 @@ main {
   main#parrot {
     padding: 0;
     height: 0; }
+  main#penguin {
+    padding: 0;
+    height: 0; }
 
 .dolphins {
   display: grid;
@@ -217,6 +220,89 @@ main {
     .ptext .border.trans {
       background-color: transparent; }
 
+.penguins {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute; }
+  .penguins .pen_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    animation: slide 8s infinite; }
+    .penguins .pen_img p {
+      font-size: 70px;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      margin-top: 100px;
+      color: #fff; }
+    .penguins .pen_img:nth-child(1) {
+      left: 0%;
+      animation-delay: 0s;
+      background-image: url(../img/penguin1.jpg);
+      background-size: cover;
+      background-position: center; }
+    .penguins .pen_img:nth-child(2) {
+      left: 100%;
+      animation-delay: 2s;
+      background-image: url(../img/penguin2.jpg);
+      background-size: cover;
+      background-position: center; }
+    .penguins .pen_img:nth-child(3) {
+      left: 100%;
+      animation-delay: 4s;
+      background-image: url(../img/penguin3.jpg);
+      background-size: cover;
+      background-position: center; }
+    .penguins .pen_img:nth-child(4) {
+      left: 100%;
+      animation-delay: 6s;
+      background-image: url(../img/penguin4.jpg);
+      background-size: cover;
+      background-position: center; }
+
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%; }
+  5% {
+    left: 0%; }
+  25% {
+    left: 0%; }
+  30% {
+    left: -100%;
+    width: 100%; }
+  31% {
+    left: -100%;
+    width: 0%; }
+  100% {
+    left: 100%;
+    width: 0%; } }
+
+.other-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .other-box * {
+    width: 250px;
+    height: 166px;
+    margin: 10px 10px;
+    border: solid 3px #00ff19; }
+  .other-box .star {
+    background: url("../img/star.jpg"); }
+  .other-box .pelican {
+    background: url("../img/pelican.jpg"); }
+  .other-box .fish1 {
+    background: url("../img/fish1.jpg"); }
+  .other-box .fish2 {
+    background: url("../img/fish2.jpg"); }
+
 #main-footer {
   text-align: center;
   padding: 0.5rem;
@@ -271,7 +357,9 @@ main {
       width: 150px;
       height: 150px; }
   .dolphins {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .penguins .pen_img p {
+    font-size: 30px; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
