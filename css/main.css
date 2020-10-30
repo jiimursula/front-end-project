@@ -90,7 +90,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/turtle_small.JPG);
+    background: url(../img/turtle.JPG);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -367,4 +367,6 @@ main {
   .parrot1,
   .parrot2,
   .parrot3 {
-    background-attachment: scroll; } }
+    background-attachment: scroll; }
+  .ptext {
+    font-size: 15px; } }
