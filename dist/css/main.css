@@ -90,7 +90,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/turtle.JPG);
+    background: url(../img/turtle_small.JPG);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
