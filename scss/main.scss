@@ -124,17 +124,17 @@ main {
 }
 
 .parrot1 {
-  background-image: url("../img/parrot1.jpg");
+  background-image: url("../img/parrot1_small.jpg");
   min-height: 100%;
 }
 
 .parrot2 {
-  background-image: url("../img/parrot2.jpg");
+  background-image: url("../img/parrot2_small.jpg");
   min-height: 400px;
 }
 
 .parrot3 {
-  background-image: url("../img/parrot3.jpg");
+  background-image: url("../img/parrot3_small.jpg");
   min-height: 400px;
 }
 
@@ -202,14 +202,14 @@ main {
     &:nth-child(1) {
       left: 0%;
       animation-delay: 0s;
-      background-image: url(../img/penguin1.jpg);
+      background-image: url(../img/penguin1_small.jpg);
       background-size: cover;
       background-position: center;
     }
     &:nth-child(2) {
       left: 100%;
       animation-delay: 2s;
-      background-image: url(../img/penguin2.jpg);
+      background-image: url(../img/penguin2_small.jpg);
       background-size: cover;
       background-position: center;
     }
@@ -217,14 +217,14 @@ main {
     &:nth-child(3) {
       left: 100%;
       animation-delay: 4s;
-      background-image: url(../img/penguin3.jpg);
+      background-image: url(../img/penguin3_small.jpg);
       background-size: cover;
       background-position: center;
     }
     &:nth-child(4) {
       left: 100%;
       animation-delay: 6s;
-      background-image: url(../img/penguin4.jpg);
+      background-image: url(../img/penguin4_small.jpg);
       background-size: cover;
       background-position: center;
     }
